@@ -114,6 +114,11 @@ header p {
 
 /* Accordion  */
 
+button,
+label {
+  -webkit-tap-highlight-color: transparent;
+}
+
 .accordion-wrapper {
   border-left: 1px solid #c9c9c9;
 }
@@ -306,6 +311,11 @@ header p {
   }
 
   .accordion-item-title:hover::after {
+    background-color: #0176d3;
+    color: #ffffff;
+  }
+
+  .accordion-item input:checked + label::after {
     background-color: #0176d3;
     color: #ffffff;
   }
