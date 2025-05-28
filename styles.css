@@ -315,8 +315,7 @@ label {
     color: #ffffff;
   }
 
-  .accordion-item input:checked + label::after {
-    background-color: #0176d3;
-    color: #ffffff;
+  .accordion-item input:checked + label {
+    color: #032d60;
   }
 }
