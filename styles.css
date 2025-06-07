@@ -114,6 +114,7 @@ header p {
 
 /* Accordion  */
 
+a,
 button,
 label {
   -webkit-tap-highlight-color: transparent;
