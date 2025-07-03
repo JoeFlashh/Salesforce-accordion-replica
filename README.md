@@ -1,23 +1,33 @@
 # Salesforce Accordion Replica
 
-A responsive accordion component inspired by Salesforce’s Starter Suite UI.  
-Built with HTML, CSS (Grid, Flexbox, media queries), and JavaScript.
+A responsive accordion component inspired by Salesforce’s Starter Suite UI.
 
 ## Features
 
-- Responsive two-column layout on desktop, single column on mobile
-- Accordion functionality powered by **native radio inputs** and enhanced with advanced CSS selectors:
-  - `:checked` — styles the currently selected accordion input to show active state
-  - Adjacent sibling combinator `+` — targets labels immediately after inputs for styling toggles
-  - The relational pseudo-class `:has()` — applies styles to parent elements when a child input is checked, enabling dynamic border and content visibility without JavaScript
-- Dynamic main image updates according to the active accordion item via JavaScript
+- **Responsive layout**  
+  Two-column layout on desktop, single-column stack on mobile for optimal readability.
 
-## Technologies Used
+- **Accordion functionality using native HTML + CSS**  
+  Powered by semantic radio inputs and enhanced with CSS selectors:
 
-- HTML5
-- CSS3 (Grid, Flexbox, transitions, media queries, advanced selectors)
-- JavaScript
+  - `:checked` — reveals the currently selected accordion panel
+  - Adjacent sibling combinator (`+`) — targets the label directly following the input
+  - `:has()` — applies styles to parent elements when a child input is checked, enabling dynamic state styling (e.g., borders, visibility)
+
+- **Dynamic image updates via JavaScript**  
+  The main image updates in real-time based on which accordion item is active.
+
+## Tools Used
+
+- **HTML5**
+- **CSS3**
+  - Grid & Flexbox for layout
+  - Media queries for responsiveness
+  - Transitions and hover/focus states
+  - Advanced selectors (`:checked`, `:has()`, combinators)
+- **JavaScript**
+  - DOM manipulation for image switching
 
 ---
 
-Built by JoeFlashh
+Built by **JoeFlashh**
