@@ -1,4 +1,4 @@
-# Salesforce Accordion Replica
+# Salesforce accordion replica
 
 A responsive accordion component inspired by Salesforce’s Starter Suite UI.
 
